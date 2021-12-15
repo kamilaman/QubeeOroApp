@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:paddingBottom="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qubee Afaan Oromoo App"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/orang"
+            />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Version"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/j" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   1.1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/j" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Update"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="January 2021"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/e" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Qubeen Afaan Oromoo, Afaan Oromoo baruuf bu'ura dha. Qubeen kun ka'umsi isaa Laatinii yoo ta'u yeroo ammaatti bal'inaan itti hojjetamaa kan jiru dha."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/j" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/h" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kamilaman22@gmail.com"
+            android:textColor="@color/j"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://t.me/kahb22"
+            android:textColor="@color/j"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

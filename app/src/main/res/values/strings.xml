@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Qubee Afaan Oromoo</string>
+    <string name="question_1">Fakkiin kuni maqaan maalidha?</string>
+    <string name="question_2">Fakkiin kuni maqaan maalidha?</string>
+    <string name="question_3">Fakkiin kuni maqaan maalidha?</string>
+    <string name="question_4">Qubee dachaa/cimdii isaa kami?</string>
+    <string name="question_5">Qubee afaan oromoo dachaa/cimdii hin taane meeqa?</string>
+    <string name="question_6">Qubee dubbachiiftuu kan hin taane kami?</string>
+    <string name="question_7">Lakkoofsa isaa meeqa?</string>
+    <string name="question_8">70 barreeffamani?</string>
+    <string name="question_9">12 barreeffamani?</string>
+    <string name="question_10">dhibba tokko fi tokko lakkoofsani?</string>
+
+    <string name="admob_app_id">ca-app-pub-9313618575020167/2980560987</string> //changed
+    <string name="admob_banner_unit_id">ca-app-pub-9313618575020167/4788660195</string> //changed
+    <string name="admob_interstitial_unit_id">ca-app-pub-9313618575020167/4788660195</string> //chnaged
+    <string name="admob_native_ad_unit_id"></string> //changed
+</resources>

@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    android:background="#ffffff"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/orang">
+
+            <androidx.cardview.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:id="@+id/iconFlag"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/qubb"
+                        android:layout_centerInParent="true"/>
+                    <LinearLayout
+                        android:id="@+id/attrBanner"
+                        android:orientation="vertical"
+                        android:layout_width="100dp"
+                        android:layout_height="8dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorAccent"
+                        android:layout_below="@id/iconFlag"
+                        android:layout_centerInParent="true"/>
+                    <TextView
+                        android:id="@+id/textBanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gaaffii Qubee!"
+                        android:textColor="#000000"
+                        android:textSize="35sp"
+                        android:shadowColor="#2e2e2e"
+                        android:shadowDx="1"
+                        android:shadowDy="3"
+                        android:shadowRadius="4"
+                        android:layout_centerInParent="true"
+                        android:layout_below="@id/attrBanner"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/jaldeessa"
+                            android:scaleType="fitXY"
+                            android:id="@+id/flgRussia" />
+                        <TextView
+                            android:id="@+id/questionNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 1/10"
+                            android:layout_toRightOf="@id/flgRussia"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/flgRussia"/>
+                        <LinearLayout
+                            android:id="@+id/line1"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/flgRussia"
+                            android:layout_below="@id/flgRussia"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="jaldessa"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="jedaala"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="leenca"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/j1"
+                                android:textColor="#636363"
+                                android:text="jaldeessa"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/urunguu"
+                            android:scaleType="fitXY"
+                            android:id="@+id/flgAust" />
+                        <TextView
+                            android:id="@+id/questionNum2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 2/10"
+                            android:layout_toRightOf="@id/flgAust"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/flgAust"/>
+                        <LinearLayout
+                            android:id="@+id/line2"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/flgAust"
+                            android:layout_below="@id/flgAust"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="sinbira"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/j2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="urunguu"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="allaati"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="sinbira halkani"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/flg"
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/odaa" />
+                        <TextView
+                            android:id="@+id/questionNum3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 3/10"
+                            android:layout_toRightOf="@id/flg"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/flg"/>
+                        <LinearLayout
+                            android:id="@+id/line3"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/flg"
+                            android:layout_below="@id/flg"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="muka"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="biqiltu"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:id="@+id/j3"
+                                android:textColor="#636363"
+                                android:text="odaa"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="birbirsa"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/qub"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg" />
+                        <TextView
+                            android:id="@+id/questionNum4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 4/10"
+                            android:layout_toRightOf="@id/fg"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg"/>
+                        <LinearLayout
+                            android:id="@+id/line4"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg"
+                            android:layout_below="@id/fg"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="bh,ch,dh,st,sh"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="st,dh,eh,ny,hs"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:id="@+id/j4"
+                                android:textColor="#636363"
+                                android:text="ch,dh,ny,ph,sh"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="ph,cs,dh,xs,ts"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/qub"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg1" />
+                        <TextView
+                            android:id="@+id/questionNum5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 5/10"
+                            android:layout_toRightOf="@id/fg1"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg1"/>
+                        <LinearLayout
+                            android:id="@+id/line5"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg1"
+                            android:layout_below="@id/fg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="22"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="29"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="31"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/j5"
+                                android:textColor="#636363"
+                                android:text="26"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/qubb"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg2" />
+                        <TextView
+                            android:id="@+id/questionNum6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 6/10"
+                            android:layout_toRightOf="@id/fg2"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg2"/>
+                        <LinearLayout
+                            android:id="@+id/line6"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg2"
+                            android:layout_below="@id/fg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="A"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="E"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="O"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/j6"
+                                android:textColor="#636363"
+                                android:text="H"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:src="@drawable/zeeroo"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg12" />
+                        <TextView
+                            android:id="@+id/questionNum7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 7/10"
+                            android:layout_toRightOf="@id/fg12"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg12"/>
+                        <LinearLayout
+                            android:id="@+id/line7"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg12"
+                            android:layout_below="@id/fg12"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:id="@+id/j7"
+                                android:textColor="#636363"
+                                android:text="Zeeroo/duwwaa"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="kudhan"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="tokko"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="afur"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg21" />
+                        <TextView
+                            android:id="@+id/questionNum8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 8/10"
+                            android:layout_toRightOf="@id/fg21"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg21"/>
+                        <LinearLayout
+                            android:id="@+id/line8"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg21"
+                            android:layout_below="@id/fg21"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="kudhan"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="shantama"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:id="@+id/j8"
+                                android:textColor="#636363"
+                                android:text="torbaatama"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="sagal"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg211" />
+                        <TextView
+                            android:id="@+id/questionNum9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 9/10"
+                            android:layout_toRightOf="@id/fg211"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_9"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg211"/>
+                        <LinearLayout
+                            android:id="@+id/line9"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg211"
+                            android:layout_below="@id/fg211"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:id="@+id/j9"
+                                android:textColor="#636363"
+                                android:text="kudha lama"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="kudhaan lama"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="kudhan lama"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="kudha laama"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="0dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="47dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/fg212" />
+                        <TextView
+                            android:id="@+id/questionNum10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gaaffii 10/10"
+                            android:layout_toRightOf="@id/fg212"
+                            android:layout_marginLeft="12dp" />
+                        <TextView
+                            android:layout_below="@id/questionNum10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:textColor="#363636"
+                            android:text="@string/question_10"
+                            android:layout_marginLeft="12dp"
+                            android:layout_toRightOf="@+id/fg212"/>
+                        <LinearLayout
+                            android:id="@+id/line10"
+                            android:layout_marginLeft="14dp"
+                            android:layout_toRightOf="@id/fg212"
+                            android:layout_below="@id/fg212"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/d"
+                            android:orientation="horizontal" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="110"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:id="@+id/j10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="101"
+                                android:textColor="#636363"
+                                android:textSize="15sp" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="1001"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioButton
+                                android:textColor="#636363"
+                                android:text="111"
+                                android:textSize="15sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/bSubmit"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:padding="10dp"
+                android:text="Deebii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/bUlang"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:padding="10dp"
+                android:text="Gaaffii Deebi'uu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

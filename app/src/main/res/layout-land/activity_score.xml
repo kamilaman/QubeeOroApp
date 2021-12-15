@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Score">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="14dp"
+        >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Excellent!"
+            android:textColor="#fff"
+            android:textSize="27dp" />
+
+        <RatingBar
+            android:id="@+id/rat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:isIndicator="true"
+            android:progressBackgroundTint="@color/whiteText"
+            android:progressTint="@color/colorAccent"
+            android:secondaryProgressTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Lakkofsani"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:gravity="center"
+            android:text="10.0"
+            android:layout_marginTop="4dp"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_above="@+id/review"
+            android:layout_below="@+id/mScore"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="13dp"
+            android:gravity="center"
+            android:text="Qabxii : "
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Backto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Deebii ilaalufi" />
+
+        <Button
+            android:id="@+id/Backto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Gaaffii deebi'uuf"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+</ScrollView>
